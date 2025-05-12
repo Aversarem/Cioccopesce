@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Pagina principale</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 50px;
+      background-color: #fff0f5;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+
+    }
+
+    .button {
+      background-color: #ffb6c1;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      min-width: 140px;
+    }
+
+    .button:hover {
+      background-color: #ff69b4;
+      transform: scale(1.05);
+    }
+
+    .center-image {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Scegli una pagina 🌟</h1>
+
+  <div class="main-container">
+      <button class="button" onclick="window.location.href='pagina1.html'">Pagina 1</button>
+      <button class="button" onclick="window.location.href='pagina2.html'">Pagina 2</button>
+      <img src="https://placekitten.com/120/120" alt="Immagine carina" class="center-image">
+      <button class="button" onclick="window.location.href='pagina3.html'">Pagina 3</button>
+      <button class="button" onclick="window.location.href='pagina4.html'">Pagina 4</button>
+    </div>
+  </div>
+</body>
+</html>

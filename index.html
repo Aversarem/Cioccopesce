@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Pagina principale</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 10px;
+      background-color: #b800c280;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .button-container {
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .button {
+      background-color: #A006c180;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #008F00A0;
+      transform: scale(1.05);
+    }
+    .center-image {
+      width: 120px;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      object-fit: cover;  /* Keeps it nicely cropped */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      vertical-align: middle;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="main-container">
+      <button class="button" onclick="window.location.href='shop.html'">Shop</button>
+      <button class="button" onclick="window.location.href='skate.html'">Skate</button>
+     <img src="cp.jpg" alt="Cioccopesce" class="center-image">
+      <button class="button" onclick="window.location.href='contatti.html'">Contatti</button>
+      <button class="button" onclick="window.location.href='chi siamo.html'">Chi siamo</button>
+    </div>
+  </div>
+</body>
+</html>
