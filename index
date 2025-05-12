@@ -4,6 +4,7 @@
     <title>CioccoPesce Shop</title>
 </head>
 <body>
+    <a href='another_page.html'> Next Page </a>
     <h1>Welcome to the fish tank </h1>
     <p>This is my first webpage.</p>
 </body>
